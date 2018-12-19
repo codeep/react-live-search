@@ -1,0 +1,30 @@
+/* add css styles here (optional) */
+
+input {
+  width: 280px;
+  height: 40px;
+  color: #333;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+#search-results {
+  width: 280px;
+  max-height: 200px;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.search-result {
+  background: white;
+  padding: 10px;
+}
+
+.search-result:nth-child(even) {
+  background: #fafafa;
+}
