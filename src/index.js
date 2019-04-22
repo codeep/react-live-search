@@ -16,13 +16,14 @@ export default class ReactLiveSearch extends Component {
     data: PropTypes.array,
     onChange: PropTypes.func,
     onSelect: PropTypes.func,
-    style: PropTypes.object,
+    itemStyle: PropTypes.object,
     icon: PropTypes.string
   }
 
   static defaultProps = {
-    style: {},
-    icon: 'search'
+    itemStyle: {background: '#000'},
+    icon: 'search',
+    onChange: () => {}
   }
 
   state = {
@@ -68,7 +69,7 @@ export default class ReactLiveSearch extends Component {
   }
 
   render() {
-    const { value, data, style, icon } = this.props
+    const { value, data, itemStyle, icon } = this.props
     const { selected, cursor } = this.state
 
     this.filteredData = data.filter(item => item.label.includes(value))
@@ -92,7 +93,7 @@ export default class ReactLiveSearch extends Component {
             {this.filteredData.map((item, index) => (
               <LiveSearch.Item
                 key={item.value}
-                style={style}
+                style={itemStyle}
                 onClick={() => this.handleItemSelect(item.value)}
                 active={cursor === index}
               >

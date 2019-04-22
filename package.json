@@ -1,7 +1,19 @@
 {
   "name": "react-live-search",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "This library for live search with costume data.",
+  "keywords": [
+    "react",
+    "react.js",
+    "react-component",
+    "Search",
+    "live search",
+    "react live search",
+    "search input",
+    "live search input",
+    "react search input",
+    "react search"
+  ],
   "author": "vlad-grigoryan",
   "license": "MIT",
   "repository": "https://github.com/codeep/react-live-search",

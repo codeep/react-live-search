@@ -39,10 +39,8 @@ export default class App extends Component {
           onChange={this.onChange}
           onSelect={this.onSelect}
           data={data}
-          titlePropName="value"
-          valuePropName="id"
-        />
+          itemStyle={{background: 'grey'}} />
       </div>
-    );
+    )
   }
 }
