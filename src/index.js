@@ -21,7 +21,7 @@ export default class ReactLiveSearch extends Component {
   }
 
   static defaultProps = {
-    itemStyle: {background: '#000'},
+    itemStyle: {},
     icon: 'search',
     onChange: () => {}
   }

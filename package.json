@@ -1,6 +1,6 @@
 {
   "name": "react-live-search",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This library for live search with costume data.",
   "keywords": [
     "react",
@@ -12,7 +12,11 @@
     "search input",
     "live search input",
     "react search input",
-    "react search"
+    "react search",
+    "input",
+    "filter",
+    "component",
+    "react-component"
   ],
   "author": "vlad-grigoryan",
   "license": "MIT",
