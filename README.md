@@ -1,13 +1,13 @@
-# react-search-input
+# react-live-search
 
 > 
 
-[![NPM](https://img.shields.io/npm/v/react-search-input.svg)](https://www.npmjs.com/package/react-search-input) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-live-search.svg)](https://www.npmjs.com/package/react-live-search) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-search-input
+npm install --save react-live-search
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save react-search-input
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-search-input'
+import MyComponent from 'react-live-search'
 
 class Example extends Component {
   render () {

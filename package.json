@@ -1,10 +1,10 @@
 {
-  "name": "react-search-input",
+  "name": "react-live-search",
   "version": "1.0.0",
   "description": "",
   "author": "vlad-grigoryan",
   "license": "MIT",
-  "repository": "vlad-grigoryan/react-search-input",
+  "repository": "https://github.com/codeep/react-live-search",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",

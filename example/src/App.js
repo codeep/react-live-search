@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import ReactLiveSearch from 'react-search-input'
+import ReactLiveSearch from 'react-live-search'
 
 export default class App extends Component {
   state = {
