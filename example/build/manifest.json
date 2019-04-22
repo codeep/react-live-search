@@ -1,6 +1,6 @@
 {
-  "short_name": "react-search-input",
-  "name": "react-search-input",
+  "short_name": "react-live-search",
+  "name": "react-live-search",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
